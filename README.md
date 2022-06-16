@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# Golden Gym
+
+A UI design for all types of exercises
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -13,11 +17,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
@@ -68,3 +67,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Acknowledgements
+
+- [JavaScript Mastery](https://www.jsmastery.pro/)
+
+## API Reference
+
+### Get all items
+
+```http
+  https://rapidapi.com/hub
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `REACT_APP_RAPID_KEY` | `string` | **Required**. Your API key |
+
+## Tech Stack
+
+**Client:** React, Material UI
+
+**Server:** Rapid API, Exercise db, YouTube Search And Download APIs
+
+## Lessons Learned
+
+- Usage Of fetch
+- Queries using States
+- API handling in React
+- Material UI
